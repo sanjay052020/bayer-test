@@ -1,23 +1,26 @@
 # bayer-test
-hackethon - HCL
 
-1. Backend
+Hackethon - HCL
 
-i. MongoDB
-ii. Express JS
+**Backend**
 
+* MongoDB
+* Express JS
 
-2.Frontend
+**Frontend**
 
-i. React js
-ii. Typescript
-iii. RTK
-iv. BootStrap
+* React js
+* Typescript
+* RTK
+* BootStrap
 
-Test Cases
-1.Jest Library
+**Test Cases**
 
-Thing to be work on Module
+1. Jest Library
+
+**Things to be worked on Module**
+
 1. Staff list Management
 2. Shift scheduler
 3. Search and filter
+
