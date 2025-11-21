@@ -1,0 +1,13 @@
+// /routes/nurseRoutes.js
+const express = require('express');
+const router = express.Router();
+const { nurseController } = require('../controllers/useController');
+
+// Nurse CRUD routes
+router.get('/', nurseController.getNurses);
+router.post('/', nurseController.createNurse);
+router.get('/:id', nurseController.getNurseById);
+router.put('/:id', nurseController.updateNurse);
+router.delete('/:id', nurseController.deleteNurse);
+
+module.exports = router;
